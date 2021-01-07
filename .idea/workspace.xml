@@ -10,17 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="463c5c64-0f29-4d08-ba0c-282b6e33f14a" name="Default Changelist" comment="add annotation&#10;@Controller - check class for config&#10;@RequestMapping - add parent path to url&#10;@GetMapping - return views of routes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dp29/springMVC/controllers/FirstController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dp29/springMVC/controllers/SecondController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/goodbye.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/second/exit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SpringMVC/WEB-INF/classes/ru/dp29/springMVC/controllers/FirstController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SpringMVC/WEB-INF/views/first/goodbye.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SpringMVC/WEB-INF/views/first/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/dp29/springMVC/controllers/FirstController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/dp29/springMVC/controllers/SecondController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/second/calculator.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dp29/springMVC/controllers/FirstController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dp29/springMVC/controllers/FirstController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/goodbye.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/goodbye.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringMVC/WEB-INF/classes/ru/dp29/springMVC/controllers/FirstController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringMVC/WEB-INF/classes/ru/dp29/springMVC/controllers/FirstController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringMVC/WEB-INF/views/first/goodbye.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringMVC/WEB-INF/views/first/goodbye.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringMVC/WEB-INF/views/first/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringMVC/WEB-INF/views/first/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/dp29/springMVC/controllers/FirstController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/dp29/springMVC/controllers/FirstController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +259,7 @@
       <updated>1610018606343</updated>
       <workItem from="1610018609656" duration="214000" />
       <workItem from="1610019506250" duration="1183000" />
-      <workItem from="1610020715234" duration="11671000" />
+      <workItem from="1610020715234" duration="18349000" />
     </task>
     <task id="LOCAL-00001" summary="Prepare Spring MVC proj&#10;Configure Apache for first start">
       <created>1610018807031</created>
@@ -291,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610038732781</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add annotation&#10;@Controller - check class for config&#10;@RequestMapping - add parent path to url&#10;@GetMapping - return views of routes">
+      <created>1610040494790</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610040494790</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
