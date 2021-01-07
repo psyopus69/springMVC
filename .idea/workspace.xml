@@ -9,11 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="463c5c64-0f29-4d08-ba0c-282b6e33f14a" name="Default Changelist" comment="firs vue + controller hello_world">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dp29/springMVC/config/MySpringMVCDispatchInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dp29/springMVC/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringMVC/WEB-INF/classes/ru/dp29/springMVC/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringMVC/WEB-INF/classes/ru/dp29/springMVC/HelloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/dp29/springMVC/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/dp29/springMVC/HelloController.class" afterDir="false" />
+    <list default="true" id="463c5c64-0f29-4d08-ba0c-282b6e33f14a" name="Default Changelist" comment="add annotation&#10;@Controller - check class for config&#10;@RequestMapping - add parent path to url&#10;@GetMapping - return views of routes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dp29/springMVC/controllers/FirstController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dp29/springMVC/controllers/SecondController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/goodbye.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/second/exit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SpringMVC/WEB-INF/classes/ru/dp29/springMVC/controllers/FirstController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SpringMVC/WEB-INF/views/first/goodbye.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SpringMVC/WEB-INF/views/first/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/dp29/springMVC/controllers/FirstController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/dp29/springMVC/controllers/SecondController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -254,7 +261,7 @@
       <updated>1610018606343</updated>
       <workItem from="1610018609656" duration="214000" />
       <workItem from="1610019506250" duration="1183000" />
-      <workItem from="1610020715234" duration="9584000" />
+      <workItem from="1610020715234" duration="11671000" />
     </task>
     <task id="LOCAL-00001" summary="Prepare Spring MVC proj&#10;Configure Apache for first start">
       <created>1610018807031</created>
@@ -277,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610032155126</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add WebMvcConfigurer &amp;&amp; MySpringMVCDispatchInitializer instead of web.xml &amp;&amp; applicationContextMVC">
+      <created>1610038732781</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610038732781</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,6 +314,8 @@
     <MESSAGE value="fix artifacts for start Tomcat" />
     <MESSAGE value="fix Spring Dependencies for webmvc &amp; other's" />
     <MESSAGE value="firs vue + controller hello_world" />
-    <option name="LAST_COMMIT_MESSAGE" value="firs vue + controller hello_world" />
+    <MESSAGE value="add WebMvcConfigurer &amp;&amp; MySpringMVCDispatchInitializer instead of web.xml &amp;&amp; applicationContextMVC" />
+    <MESSAGE value="add annotation&#10;@Controller - check class for config&#10;@RequestMapping - add parent path to url&#10;@GetMapping - return views of routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add annotation&#10;@Controller - check class for config&#10;@RequestMapping - add parent path to url&#10;@GetMapping - return views of routes" />
   </component>
 </project>
